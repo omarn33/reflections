@@ -148,6 +148,9 @@ public class VfsTest {
         }
     }
 
+    /*
+    * Place Test here
+    */
     private void testVfsDir(Vfs.Dir dir) {
         List<Vfs.File> files = new ArrayList<>();
         for (Vfs.File file : dir.getFiles()) {
